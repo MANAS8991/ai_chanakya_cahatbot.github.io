@@ -14,15 +14,20 @@ Ask a Question: Type your question in the text input area or click the "Speak" b
 Interact with the Chatbot: The chatbot will provide responses to your questions and engage in conversation.
 View Conversation History: You can see the conversation history in the main panel, including your questions and the chatbot's responses.
 Installation
+
 To run the AI Chanakya ChatBot locally, follow these steps:
 
-Clone the repository: git clone https://github.com/your-username/ai-chanakya-chatbot.git
+Clone the repository: git clone https://github.com/MANAS8991/ai_chanakya_cahatbot.github.io.git
+
 Navigate to the project directory: cd ai-chanakya-chatbot
+
 Install dependencies: pip install -r requirements.txt
 
 Set up environment variables:
 Obtain a Groq API key and set it as GROQ_API_KEY in a .env file.
+
 Run the app: streamlit run app.py
+
 Technologies Used
 Streamlit: Web framework for building interactive web applications.
 SpeechRecognition: Library for performing speech recognition in Python.
