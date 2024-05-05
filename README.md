@@ -8,7 +8,7 @@
 
 📸 Project Snapshot: Swipe through to see screenshots of the AI Chanakya ChatBot interface!
 
-<div align="center"> <img src="https://github.com/MANAS8991/ai_chanakya_cahatbot.github.io/blob/main/response.mp3"> </div>
+<div align="center"> <img src="https://github.com/MANAS8991/ai_chanakya_cahatbot.github.io/blob/main/Screenshot%20(125).png"> </div>
 
 
 
