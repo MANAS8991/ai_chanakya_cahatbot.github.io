@@ -1,12 +1,15 @@
-AI CHANAKYA CHATBOT
+<h1 align="center">AI CHANAKYA CHATBOT</h1>
 *********************
 
 🚀 Excited to share a demo of my latest project - the AI Chanakya ChatBot 🤖 built using Streamlit and integrated with conversational AI powered by Groq! Check out the video and photo below to see it in action:
 
 📹 Watch the Demo Video: Link to Video
-![link2](https://github.com/MANAS8991/ai_chanakya_cahatbot.github.io/blob/main/Untitled%20design%20(3).mp4)
+![link2] https://github.com/MANAS8991/ai_chanakya_cahatbot.github.io/blob/main/Untitled%20design%20(3).mp4
 
 📸 Project Snapshot: Swipe through to see screenshots of the AI Chanakya ChatBot interface!
+
+<div align="center"> <img src="https://github.com/MANAS8991/MANAS8991/blob/main/linkedin21.png"> </div>
+
 
 
 
