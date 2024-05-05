@@ -1,35 +1,43 @@
-# ai_chanakya_cahatbot.github.io
-
 AI Chanakya ChatBot
-AI Chanakya ChatBot is an interactive voice and text-based chatbot powered by Groq Langchain technology. It allows users to ask questions and engage in conversations with the chatbot using both speech input and text input.
+This project implements an AI-powered chatbot using Streamlit, speech recognition, and language generation models from Hugging Face. The chatbot allows users to interact via voice input or text input, engaging in conversational exchanges powered by natural language understanding and generation.
+
 
 Features
-Voice Recognition: Users can speak to the chatbot using their microphone, and the chatbot will transcribe the speech into text.
-Text Input: Users can also type their questions or messages directly into the text input area.
-Conversation History: The chatbot maintains a conversation history, allowing users to see previous interactions.
-Customization: Users can customize the chatbot's behavior by selecting different language models and conversational memory lengths.
-Usage
-Select Language Model: Choose a language model from the sidebar to customize the chatbot's behavior.
-Ask a Question: Type your question in the text input area or click the "Speak" button to ask a question using voice input.
-Interact with the Chatbot: The chatbot will provide responses to your questions and engage in conversation.
-View Conversation History: You can see the conversation history in the main panel, including your questions and the chatbot's responses.
-Installation
+Voice interaction with the chatbot using speech recognition.
+Conversational AI powered by Hugging Face's language models.
+Text-to-speech functionality to provide audio responses.
+Customizable conversational memory and model selection.
+Setup
+Install the required Python libraries:
 
-To run the AI Chanakya ChatBot locally, follow these steps:
-
-Clone the repository: git clone https://github.com/MANAS8991/ai_chanakya_cahatbot.github.io.git
-
-Navigate to the project directory: cd ai-chanakya-chatbot
-
-Install dependencies: pip install -r requirements.txt
-
+pip install streamlit speech_recognition gtts groq langchain transformers
 Set up environment variables:
-Obtain a Groq API key and set it as GROQ_API_KEY in a .env file.
+Obtain a GROQ API key and set it as an environment variable:
 
-Run the app: streamlit run app.py
+export GROQ_API_KEY="your_groq_api_key_here"
+Run the Streamlit app locally:
 
-Technologies Used
-Streamlit: Web framework for building interactive web applications.
-SpeechRecognition: Library for performing speech recognition in Python.
-gTTS (Google Text-to-Speech): Python library and CLI tool to interface with Google Translate's text-to-speech API.
-Groq Langchain: API for generating text-based responses using Groq language models.
+streamlit run app.py
+Usage
+Choose a language model (LLM) and conversational memory length using the sidebar options.
+Speak into the microphone or type a question/query into the text area to interact with the chatbot.
+Click the "Speak" button to use voice input (requires microphone access).
+Demo
+Watch the Web App Demo Video
+
+Screenshots
+
+Caption: Chatting with the AI Chanakya ChatBot.
+
+
+Caption: Selecting a language model and conversational memory length.
+
+Credits
+Streamlit: Interactive web app framework for building ML applications.
+Hugging Face Transformers: Library for state-of-the-art NLP models and pipelines.
+SpeechRecognition: Library for speech recognition in Python.
+gTTS (Google Text-to-Speech): Library for text-to-speech conversion.
+GROQ: Chatbot service for conversation APIs.
+LangChain: Library for building conversational AI systems.
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
